@@ -1,0 +1,47 @@
+<h2>Welcome To Your Activity Tracker</h2>
+<div>
+	Enter new activities using the form below.<br>
+	See any past activities below the form.
+</div>
+
+<!-- 'Input new activity' form -->
+<div id="input">
+	<h3>Enter a new activity</h3>
+	<form>
+		<table id="formTable">
+			<tr>
+				<td class="rightAlign">Activity Name:</td>
+				<td class="leftAlign"><input type="text" id="name" required></td>
+			</tr>
+			<tr>
+				<td class="rightAlign">Number of reps:</td>
+				<td class="leftAlign"><input type="number" id="reps"></td>
+			<tr>
+				<td class="rightAlign">Weight:</td>
+				<td class="leftAlign"><input type="number" id="weight"></td>
+			</tr>
+			<tr>
+				<td class="rightAlign">Date:</td>
+				<td class="leftAlign"><input type="date" id="date"></td>
+			</tr>
+			<tr>
+				<td class="rightAlign">lbs (1 = lbs, 0 = kgs):</td>
+				<td class="leftAlign"><input type="number" id="lbs"></td>
+			</tr>
+			<tr>
+				<td class="rightAlign"><input type="submit" id="newList" name="newList" value="Enter Activity">
+					<input type="hidden" id="editID" value=""></td>
+				<td class="leftAlign"><input type="reset" id="resetForm" value="Reset Form"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+
+<!-- 'Activity log' section -->
+<div id="results">
+	<span id="resultsText"><h3>Activity Log</h3></span>
+	<BR><BR>
+	<input type="submit" id="newTable" value="Destroy/Create Table">
+</div>
+
+<script src="scripts.js"></script>
