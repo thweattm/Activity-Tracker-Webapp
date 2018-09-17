@@ -1,3 +1,2 @@
 # CS290
-CS290 Web Development
-thweattm@oregonstate.edu
+Web Development Final Project. Simple activity tracker using HTML, CSS, Javascript, Node.js, Handlebars template system, MySQL.
